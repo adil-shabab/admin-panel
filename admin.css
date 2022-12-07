@@ -176,7 +176,35 @@ a:hover{
     margin-bottom: 29px;
     font-weight: bold;
 }
-
+.main-panel .toggle .panel{
+    position: relative;
+}
+.main-panel .toggle .panel .search-icon{
+    position: absolute;
+    right: 60px;
+    top: -10px;
+}
+.main-panel .toggle .panel .search-icon i{
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.main-panel .toggle .panel .search-icon .search-input{
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-bottom: 1px solid rgb(176, 176, 176);
+    width: 0px;
+    transition: 0.8s ease;
+    opacity: 0;
+}
+.main-panel .toggle .panel .search-icon .search-input.active{
+    opacity: 1;
+    width: 280px;
+}
+.main-panel .property-parent .each-property .amenities-icon{
+    width: 24px;
+}
 
 
 

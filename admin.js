@@ -1,4 +1,6 @@
 
+
+
 (function() {
     $(function() {
       var toggle;
@@ -41,3 +43,16 @@
     })();
   
   }).call(this);
+
+
+
+
+
+  document.getElementById('search_icon').addEventListener('click', function(){
+    document.querySelector('.search-input').classList.toggle('active')
+    document.getElementById('search_icon').classList.toggle('fa-xmark')
+  })
+  
+  
+  
+  
